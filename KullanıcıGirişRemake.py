@@ -1,4 +1,3 @@
-print("ENGİN FIRAT CATAR...")
 print("""
 !!!UYARI!!!\n
 Kullanıcı adı en az 5 karaktere sahip olmalıdır.
