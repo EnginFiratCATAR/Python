@@ -14,23 +14,23 @@ if secim=="1":
     saat=int(input("Saat Değeri Giriniz:"))
     dakika=int(saat*60)
     print(saat,"saat",dakika,"dakikaya eşittir.")
-if secim=="2":
+elif secim=="2":
     saat=int(input("Saat Değeri Giriniz:"))
     saniye=int(saat*3600)
     print(saat,"saat",saniye,"saniyeye eşittir.")
-if secim=="3":
+elif secim=="3":
     dakika=int(input("Dakika Değeri Giriniz:"))
     saat=float(dakika/60)
     print(dakika,"dakika",saat,"saate eşittir.")
-if secim=="4":
+elif secim=="4":
     dakika=int(input("Dakika Değeri Giriniz:"))
     saniye=int(dakika*60)
     print(dakika,"dakika",saniye,"saniyeye eşittir.")
-if secim=="5":
+elif secim=="5":
     saniye=int(input("Saniye Değeri Giriniz:"))
     saat=float(saniye/3600)
     print(saniye,"saniye",saat,"saate eşittir.")
-if secim=="6":
+elif secim=="6":
     saniye=int(input("Saniye Değeri Giriniz:"))
     dakika=float(saniye/60)
     print(saniye,"saniye",dakika,"dakikaya eşittir.")
